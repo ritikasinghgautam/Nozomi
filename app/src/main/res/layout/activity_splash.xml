@@ -9,6 +9,15 @@
     android:gravity="center"
     tools:context=".SplashActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:text="@string/project_name"
+        android:textSize="32sp"
+        android:textColor="#6B1187"
+        android:layout_marginBottom="30dp" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_start"
         android:layout_width="wrap_content"

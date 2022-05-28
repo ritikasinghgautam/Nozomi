@@ -8,4 +8,6 @@
     <string name="last_location_hint_italic"><i>Enter last known location</i></string>
     <string name="last_clothes_hint_italic"><i>Enter clothes last seen wearing</i></string>
     <string name="contact_phone_hint_italic"><i>Enter phone number</i></string>
+
+    <string name="project_name"><i><u><b>NOZOMI</b></u></i></string>
 </resources>
