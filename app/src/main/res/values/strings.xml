@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Missing Persons</string>
+    <string name="username_hint_italic"><i>Enter username</i></string>
+    <string name="password_hint_italic"><i>Enter password</i></string>
+
+    <string name="name_hint_italic"><i>Enter name</i></string>
+    <string name="age_hint_italic"><i>Enter age</i></string>
+    <string name="last_location_hint_italic"><i>Enter last known location</i></string>
+    <string name="last_clothes_hint_italic"><i>Enter clothes last seen wearing</i></string>
+    <string name="contact_phone_hint_italic"><i>Enter phone number</i></string>
+</resources>

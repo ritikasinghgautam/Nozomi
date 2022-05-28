@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:text="Person Details: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#6B1187"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView_name_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView_age_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView_last_location_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Location"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView_last_clothes_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Clothes"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textView_contact_phone_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Contact Phone"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+</LinearLayout>

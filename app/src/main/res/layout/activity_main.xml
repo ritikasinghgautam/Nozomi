@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#EDDFEE"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:id="@+id/container_camera"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_camera_reverse"
+            android:layout_width="68dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#AB40CC"
+            android:background="@drawable/camera"
+            android:elevation="1dp" />
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7E44B42E"
+            android:layout_marginTop="5dp"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView_admin_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the admin screen!\n Here you may add a missing person's photo"
+        android:textAlignment="center"
+        android:textColor="#6B1187"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Face"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:layout_marginRight="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_recognize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recognize"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Face"
+        android:textAlignment="center"
+        android:textColor="#6B1187"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/imageView_face"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#2C7E57C2"
+        android:elevation="1dp"
+        android:visibility="gone"
+        tools:srcCompat="@android:drawable/screen_background_light_transparent" />
+
+    <TextView
+        android:id="@+id/textView_preview_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="@drawable/button_border"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Info"
+        android:textAlignment="center"
+        android:textColor="#736C75"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
