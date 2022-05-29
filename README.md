@@ -3,7 +3,7 @@
 ## Face recognition app for missing persons
 
 An android application based on face recognition technology which allows us to find missing persons by detecting their face.
-Some additional information of the person can also be added for the same purpose. 
+Some additional information about8 the person can also be added for the same purpose. 
 
 ## Features
 
@@ -44,7 +44,8 @@ App explanation- https://drive.google.com/file/d/17daWZqDdFTOUxM4K9-r9do4PrckXs3
 
 ## Future scope
 
-We can use Firebase for the data storage (which is done locally for now). We can also use Firebase Authentication for the admin login flow. A further QoE improvement that can be made is adding a feature so that clicking on the contact number sends the user directly to the contact app in their phone, with the number prefilled and ready to be dialled
+- We can use Firebase Realtime Database for the data storage (which is done locally for now) and Firebase Authentication for the admin login flow. 
+- A further QoE improvement that can be made is adding a feature so that clicking on the contact number sends the user directly to the contact app in their phone, with the number prefilled and ready to be dialled.
 
 
 ## Authors
