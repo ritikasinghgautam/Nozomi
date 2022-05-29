@@ -39,6 +39,8 @@ Research paper- https://arxiv.org/ftp/arxiv/papers/1804/1804.07573.pdf
 ## Usage 
 
 App explanation- https://drive.google.com/file/d/17daWZqDdFTOUxM4K9-r9do4PrckXs3VS/view?usp=sharing
+ 
+<img src="https://user-images.githubusercontent.com/57474424/170862534-b4b7274a-9fdc-4db0-9c18-5bb5a25b781c.jpg" width="250">  <img src="https://user-images.githubusercontent.com/57474424/170862714-72eb6e85-02af-4763-bca3-ec6d7c80919e.jpg" width="250">
 
 ## Future scope
 
