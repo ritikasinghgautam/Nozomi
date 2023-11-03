@@ -3,7 +3,7 @@
 ## Face recognition app for missing persons
 
 An android application based on face recognition technology which allows us to find missing persons by detecting their face.
-Some additional information about8 the person can also be added for the same purpose. 
+Some additional information about the person can also be added for the same purpose. 
 
 ## Features
 
